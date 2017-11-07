@@ -214,9 +214,3 @@ update all the others.
 
 1. Comment the methods you end up implementing, noting whether it's a target-action method or 
 a delegate method.
-
-1. Extra credit. Create a convenience initializer on the Crayon model that uses the "rgb" field 
-to populate the red, green, blue properties, instead of the hex field. Currently the code is parsing
-the hex string by skipping the pound sign, reading two hex characters, converting to Int and then 
-dividing by 255. A similar strategy could be employed on the rgb field. Prove it works by changing the 
-
